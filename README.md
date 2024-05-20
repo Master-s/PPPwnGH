@@ -173,3 +173,15 @@ This has been tested using VMware Fusion 13.5.1, with the VM Guest as Ubuntu 24.
 This loader only supports payloads with a kernel entrypoint.
 The custom version of stage2 first looks for the payload in the root directory of the USB drive, and if found, it is copied to the internal HDD at this path: /data/GoldHEN/payloads/goldhen.bin. The internal payload is then loaded and is no longer needed on the external USB drive.
 At the moment, only firmware versions 9.00 and 11.00 are supported. Soon, versions 10.00/10.01 will also be supported.
+
+## Notes for PS4 Backup includes GoldHEN
+✅PS4 Backup includes GoldHEN 900 - 1100
+
+⭐The path has been moved so it is in backup
+   /user/home/GH/goldhen.bin
+
+⚠People who have a problem with USB flash 
+   drives
+
+🎞Video
+https://youtu.be/iCmHTeToQPU
